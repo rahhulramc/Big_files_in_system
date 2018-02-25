@@ -3,7 +3,7 @@ import os
 from os.path import join, getsize
 i=0;
 arr=[("?",-1.0)]
-
+gpath=os.environ("HOME")
 def myfn(a):
 	return  a[1];
 def gts(gpath):
@@ -19,7 +19,7 @@ def gts(gpath):
 			if(len(arr)>11):
 				arr.remove(arr[1])
 	arr.remove(arr[0])
-	return arr
-	#for i in arr:
-	#	print i[0],float(i[1])/float(1000*1000)	
+gts(gpath)	
+for i in arr:
+	print i[0],float(i[1])/float(1000*1000)	
 	
