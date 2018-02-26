@@ -3,7 +3,6 @@ import os
 from os.path import join, getsize
 i=0;
 arr=[("?",-1.0)]
-gpath=os.environ['HOME']
 def myfn(a):
 	return  a[1];
 def gts(gpath):
