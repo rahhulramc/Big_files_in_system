@@ -19,7 +19,5 @@ def gts(gpath):
 			if(len(arr)>11):
 				arr.remove(arr[1])
 	arr.remove(arr[0])
-gts(gpath)	
-for i in arr:
-	print i[0],float(i[1])/float(1000*1000)	
+	return arr
 	
